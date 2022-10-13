@@ -1,4 +1,3 @@
-#%%
 from os import system, name
 from math import log10
 x = 1
@@ -13,7 +12,7 @@ PIECES_DICT = {
 }
 
 class GameBoard:
-    SIZE = 14
+    SIZE = 3
     _data = []
 
     
@@ -78,9 +77,3 @@ class GameBoard:
         if(state!=0): return state
         if(game_over): return IMPASSE
         return 0
-
-
-        
-                
-                        
-#%%
