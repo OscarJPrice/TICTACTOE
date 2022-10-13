@@ -1,4 +1,3 @@
-#%%
 from Board import GameBoard, PIECES_DICT, x, o
 gb = GameBoard()
 turn = 1
@@ -18,4 +17,3 @@ while(1):
 gb.clear()
 gb.show()
 print(f"winner: {PIECES_DICT[round_res]}")
-# %%
